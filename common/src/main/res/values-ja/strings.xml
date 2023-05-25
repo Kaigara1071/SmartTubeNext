@@ -519,4 +519,5 @@
   <string name="sorting_default">デフォルト (高速)</string>
   <string name="content_block_exclude_channel">チャンネルにSponsorBlockを適用しない</string>
   <string name="content_block_stop_excluding_channel">チャンネルにSponsorBlockを適用する</string>
+  <string name="player_chapter_notification">チャプター間を簡単に移動できるよう通知を表示</string>
 </resources>
