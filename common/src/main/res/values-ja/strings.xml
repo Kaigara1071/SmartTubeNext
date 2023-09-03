@@ -16,8 +16,8 @@
   <string name="library_signin_to_show_more">高評価、保存、またはチャンネル登録した動画を視聴しましょう</string>
   <string name="library_signin_subtitle">ライブラリを見るにはログインしてください</string>
   <string name="action_signin">ログイン</string>
-  <string name="title_video_formats">動画の形式</string>
-  <string name="title_audio_formats">音声の形式</string>
+  <string name="title_video_formats">動画フォーマット</string>
+  <string name="title_audio_formats">音声フォーマット</string>
   <string name="subtitle_category_title">字幕</string>
   <string name="playback_queue_category_title">再生キュー</string>
   <string name="video_max_quality">自動 (最高品質)</string>
@@ -194,7 +194,7 @@
   <string name="msg_mode_switch_error">表示モードを \"%s\" に切り替えられません</string>
   <string name="msg_player_error">プレイヤーエラー %s が発生しました。再生を再開します…</string>
   <string name="video_preset_disabled">プリセットなし</string>
-  <string name="video_preset_enabled">次の動画の形式は、プリセットに従って設定されます</string>
+  <string name="video_preset_enabled">次の動画のフォーマットはプリセットに従います</string>
   <string name="player_sleep_timer">スリープタイマー</string>
   <string name="player_show_quality_info">画質情報をコントロールバーに表示</string>
   <string name="player_remember_each_speed">各動画の速度を記憶</string>
@@ -202,7 +202,7 @@
   <string name="player_remember_speed_all">全ての動画で共通</string>
   <string name="player_remember_speed_each">動画ごと</string>
   <string name="msg_player_error_source">動画をダウンロードできません</string>
-  <string name="msg_player_error_renderer">選択した動画形式は未対応です。\nファームウェアのバグの可能性があります。端末を再起動してみてください。</string>
+  <string name="msg_player_error_renderer">選択したフォーマットは未対応です。\nファームウェアのバグの可能性があります。端末を再起動してみてください。</string>
   <string name="msg_player_error_unexpected">映像のデコーダーが不明のエラー</string>
   <string name="video_aspect">アスペクト比</string>
   <string name="player_tweaks">開発者向けオプション</string>
@@ -546,8 +546,8 @@
   <string name="alt_presets_behavior">プリセットの代替動作 (帯域制限)</string>
   <string name="prefer_avc_over_vp9">コーデック選択: vp9よりavcを優先</string>
   <string name="alt_app_icon">代替のアプリアイコン (要再起動)</string>
-  <string name="unlock_all_formats">すべての映像フォーマットを解除</string>
-  <string name="unlock_all_formats_desc">一部の機器のファームウェアは、一部の形式に未対応だと誤って報告します。(例: 1080pのスマートテレビは、4kに未対応だと報告する傾向あり)</string>
+  <string name="unlock_all_formats">すべての動画フォーマットのロックを解除</string>
+  <string name="unlock_all_formats_desc">一部の機器のファームウェアは、一部のフォーマットに未対応だと誤って報告します。(例: 1080pのスマートテレビは、4kに未対応だと報告する傾向あり)</string>
   <string name="cronet_desc">CronetはChromiumのネットワークスタックです。これは遅延を減らし、ネットワーク性能を向上させることでバッファの問題を解決できます。</string>
   <string name="network_stack">%s のネットワークスタックを優先</string>
   <string name="okhttp_desc">このネットワークスタックは最も遅いですが、安定性は良好です。</string>
@@ -574,4 +574,17 @@
   <string name="header_shorts">ショート</string>
   <string name="player_volume">音量</string>
   <string name="open_comments">コメント欄を開く</string>
+  <string name="player_global_focus">プレイヤーボタンのスムーズな操作</string>
+  <string name="auto_history">自動 (アカウントの設定に従う)</string>
+  <string name="remember_position_subscriptions">登録チャンネルセクションの位置を記憶</string>
+  <string name="msg_player_unknown_error">不明なエラー</string>
+  <string name="msg_player_error_video_renderer">選択した動画フォーマットは未対応です。\n再生設定から他のフォーマットを選択してください。\n解決しない場合、デバイスを再起動してください。</string>
+  <string name="msg_player_error_audio_renderer">選択した音声フォーマットは未対応です。\nプレイヤー上の HQ ボタンから他のフォーマットを選択してください。\n解決しない場合、デバイスを再起動してください。</string>
+  <string name="msg_player_error_subtitle_renderer">選択した字幕フォーマットは未対応です。\nプレイヤー上の CC ボタンを長押しして他のフォーマットを選択してください。\n解決しない場合、デバイスを再起動してください。</string>
+  <string name="msg_player_error_video_source">動画のURLが動作していないか、デバイスの時間が不正です。\n通常はアプリ側に問題があります。</string>
+  <string name="msg_player_error_audio_source">音声のURLが動作していないか、デバイスの時間が不正です。\n通常はアプリ側に問題があります。</string>
+  <string name="msg_player_error_subtitle_source">字幕のURLが動作していないか、デバイスの時間が不正です。\n通常はアプリ側に問題があります。</string>
+  <string name="disable_history">履歴をオフ</string>
+  <string name="enable_history">履歴をオン</string>
+  <string name="dialog_notification">更新のお知らせをポップアップで通知</string>
 </resources>
